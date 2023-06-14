@@ -6,7 +6,7 @@ services:
      - "8000:8000"
    networks:
      - fe-tier
-server:
+ server:
    build: ./server
    container_name: server
    depends_on:
